@@ -6,7 +6,7 @@
 /*   By: edmvarda <edmvarda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/02 22:42:30 by edmvarda          #+#    #+#             */
-/*   Updated: 2026/03/12 14:28:10 by edmvarda         ###   ########.fr       */
+/*   Updated: 2026/03/12 15:04:53 by edmvarda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static char	*join_read(int fd, char *stash, char *buf, int *r)
 	return (tmp);
 }
 
-char	*read_and_join(int fd, char *stash)
+static char	*read_and_join(int fd, char *stash)
 {
 	char	*buf;
 	int		r;

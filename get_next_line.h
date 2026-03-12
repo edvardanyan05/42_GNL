@@ -6,7 +6,7 @@
 /*   By: edmvarda <edmvarda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/02 22:40:45 by edmvarda          #+#    #+#             */
-/*   Updated: 2026/03/10 22:53:20 by edmvarda         ###   ########.fr       */
+/*   Updated: 2026/03/12 15:04:38 by edmvarda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@
 char	*get_next_line(int fd);
 char	*ft_strjoin(char *s1, char const *s2);
 char	*ft_strchr(const char *s, int c);
-char	*read_and_join(int fd, char *stash);
 size_t	ft_strlen(const char *s);
 
 #endif

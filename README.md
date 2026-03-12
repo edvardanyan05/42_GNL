@@ -42,8 +42,12 @@ int main(void)
     close(fd);
     return (0);
 }
-Files
-FileDescriptionget_next_line.hHeader — prototypes and BUFFER_SIZE definitionget_next_line.cCore logic — get_next_line, read_and_join, join_read, extract_line, clean_stashget_next_line_utils.cHelper functions — ft_strlen, ft_strjoin, ft_strchr
+
+## Files
+get_next_line.h — Header — prototypes and BUFFER_SIZE definition
+get_next_line.c — Core logic — get_next_line, read_and_join, join_read, extract_line, clean_stash
+get_next_line_utils.c — Helper functions — ft_strlen, ft_strjoin, ft_strchr
++Makefile
 
 ## Resources
 
