@@ -24,6 +24,7 @@ This design is memory-efficient and conceptually clean. The stash acts as a buff
 Compilation
 bashcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c -o gnl_test
 Usage Example
+
 #include "get_next_line.h"
 #include <fcntl.h>
 #include <stdio.h>
