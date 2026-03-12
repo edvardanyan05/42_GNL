@@ -26,11 +26,12 @@ bashcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_uti
 Usage Example
 -------------------------------------------------------------
 #include "get_next_line.h"
+
 #include <fcntl.h>
+
 #include <stdio.h>
 
-int main(void)
-{
+int main(void){
     int     fd;
     char    *line;
 
