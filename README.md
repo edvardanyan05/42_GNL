@@ -34,5 +34,7 @@ get_next_line_utils.c — Helper functions — ft_strlen, ft_strjoin, ft_strchr
 ## Resources
 
 Linux read man page
+
 Static variables in C — cppreference
+
 Valgrind documentation
