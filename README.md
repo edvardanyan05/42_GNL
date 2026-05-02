@@ -36,6 +36,3 @@ get_next_line_utils.c — Helper functions — ft_strlen, ft_strjoin, ft_strchr
 Linux read man page
 Static variables in C — cppreference
 Valgrind documentation
-AI Usage 
-
-AI was not used to write the initial implementation — it was used as a review and debugging tool after the code was written.
